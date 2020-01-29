@@ -1,0 +1,408 @@
+@media (max-width: 1024px) {
+    header .button1 {
+        top: 94%;
+        left: 89%;
+    }
+
+    .connect {
+        top: 47%;
+        left: 76%;
+        
+    }
+
+
+    .logo img {
+        padding-left: 20px;
+    }
+
+    .menu li:last-child {
+        padding-right: 0;
+    }
+
+    .works .option:nth-child(3n) {
+        margin-right: 35px;
+    }
+
+    .form-1 input,
+    .form-2 textarea {
+	width: 350px;
+    }
+
+    .link {
+        margin-left: 110px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}
+
+
+
+@media (max-width: 1023px) {
+    .nav-toggle {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        font-size: 22px;
+        color: #fed136;
+        text-transform: uppercase;
+        margin-top: 40px;
+        margin-right: 25px;
+    }
+
+    .nav-close {
+        position: fixed;
+        top: 7%;
+        right: 10px;
+        z-index: 1;
+        border: 0;
+        background-color: transparent;
+        color: #fed136;
+        font-size: 22px;
+
+        animation: nav-close 0.2s linear;
+    }
+
+    @keyframes nav-close {
+        from {
+            top: 7%;
+            right: -10px;
+        }
+
+        to {
+            top: 7%;
+            right: 10px;
+        }
+    }
+
+    .nav > ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        
+
+        width: 200px;
+        background-color: #2e2e31;
+
+        padding: 30px;
+        height: 100%;
+
+        animation: menu 0.2s linear;
+
+    }
+
+    @keyframes menu {
+        from {
+            right: -200px;
+        }
+
+        to {
+            right: 0;
+        }
+    }
+
+    .nav li {
+        padding: 15px 15px;
+    }
+
+    input#nav-toggle:checked ~ ul,
+	input#nav-toggle:checked ~ .nav-close {
+        display: block;
+        visibility: visible;
+    }
+
+    .menu li ul {
+        position: static;
+    }
+
+    .menu > li ul li {
+        padding: 10px 15px 7px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .promo h3 {
+        font-size: 38px;
+    }
+
+    .nav ul {
+        left: 71%;
+    }
+
+
+    .works {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .works .option {
+        margin-right: 0;
+        width: 310px;
+    }
+
+    .works .option:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    .block {
+        width: 100%;
+    }
+
+    .row:nth-child(odd) .block {
+        width: 100%;
+        border: 0;
+    }
+
+    .row:nth-child(even) .block {
+        border: 0;
+    }
+
+    .row:nth-child(odd) img {
+        margin-right: 0;
+    }
+
+    .row:nth-child(even) img {
+        margin-left: 0;
+    }
+
+    .row img {
+        text-align: center;
+    }
+
+    .row:last-child .block {
+        width: 50%;
+    }
+    
+    .team {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .we {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info {
+        margin: 0;
+    }
+
+    .firms img {
+        margin: 5px;
+    }
+
+    .form-1 input,
+    .form-2 textarea {
+        width: 290px;
+    }
+
+    .contact {
+        background-position: 350px 110px;
+    }
+
+    .link1,
+    .link2 {
+        margin: 0;
+    }
+
+    .link1 {
+        margin-right: 40px;
+    }
+
+    header .button1 {
+        top: 93%;
+        left: 84%;
+    }
+
+    .connect {
+        top: 54%;
+        left: 74%;
+    }
+
+    .connect input,
+    .connect textarea {
+	display: block;
+	width: 150px;
+    }
+
+    .connect textarea {
+        height: 150px;
+    }
+
+    .connect input::placeholder,
+    .connect textarea::placeholder {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 426px) {
+    .container {
+        width: 90%;
+    }
+
+    header .button1 {
+        display: none;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    .promo h3 {
+        font-size: 26px;
+    }
+
+    .promo .button {
+        margin-top: 80px;
+    }
+
+    .nav ul {
+        left: 53%;
+        width: 180px;
+    }
+
+    .nav-close {
+        top: 6%;
+        left: 93%;
+    }
+
+    .adv_list {
+        flex-wrap: wrap;
+    }
+
+    .adv_list .item {
+        width: 100%;
+    }
+
+
+    .adv_list .item:nth-child(3) {
+        margin: 0;
+    }
+
+    .adv_list .item:nth-child(-n+2) {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .item h3 {
+        margin: 10px 0;
+    }
+
+    .works .option:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    .row img {
+        display: none;
+    }
+
+
+    .row:nth-child(odd) .para {
+        margin: 0;
+    }
+
+    .row:nth-child(odd) h3,
+    .row:nth-child(odd) p {
+	text-align: center;
+}
+
+    .row:nth-child(even) .para {
+        margin: 0;
+    }
+
+    .row:nth-child(even) h3,
+    .row:nth-child(even) p {
+	text-align: center;
+}
+    
+    .firms {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firms img {
+        margin-bottom: 15px;
+    }
+
+    .team .text {
+        width: auto;
+    }
+
+    .form-area {
+        flex-direction: column;
+    }
+
+    .form-1 {
+        margin-right: 0;
+    }
+
+    input {
+        height: 30px;
+        margin-bottom: 20px;
+    }
+
+    textarea {
+        height: 120px;
+    }
+
+    .connect input::placeholder,
+    .connect textarea::placeholder {
+        font-size: 8px;
+    }
+
+    .contact .form-area {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 93%;
+    }
+
+    .footer .link1 {
+        display: none;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .nav ul {
+        left: 43%;
+        width: 120px;
+    }
+
+    .button {
+        padding: 15px 30px;
+    }
+
+    .works .option {
+        width: auto;
+        transform: none;
+    }
+
+    .form-1 input,
+    .form-2 textarea {
+        width: 250px;
+    }
+
+    input::placeholder {
+        padding-left: 10px;
+    }
+
+    .form-2 textarea::placeholder {
+        padding: 10px 0 0 10px;
+    }
+
+}
