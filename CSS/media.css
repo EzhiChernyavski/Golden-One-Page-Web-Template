@@ -406,3 +406,13 @@
     }
 
 }
+
+@media print {
+    button, nav, img, .portfolio, .contact, .item .border {
+        display: none;
+    }
+
+    /*header {
+        background-color: #fff;
+    }*/
+}
