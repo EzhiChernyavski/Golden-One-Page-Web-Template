@@ -408,8 +408,16 @@
 }
 
 @media print {
-    header, button, nav, img, .portfolio, .contact, .item .border, .team, footer {
+    header, button, nav, img, .contact, .item .border, .team, footer {
         display: none;
+    }
+
+    .portfolio img {
+        display: block;
+    }
+
+    .sponsors img {
+        display: block;
     }
 
     .point .row:last-child {
@@ -418,5 +426,9 @@
 
     .services {
         page-break-after: always;
+    }
+
+    .block {
+        padding-bottom: 20px;
     }
 }
