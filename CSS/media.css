@@ -408,11 +408,15 @@
 }
 
 @media print {
-    button, nav, img, .portfolio, .contact, .item .border {
+    header, button, nav, img, .portfolio, .contact, .item .border, .team, footer {
         display: none;
     }
 
-    /*header {
-        background-color: #fff;
-    }*/
+    .point .row:last-child {
+        display: none;
+    }
+
+    .services {
+        page-break-after: always;
+    }
 }
